@@ -10,5 +10,5 @@ shfmt -l -w "${SOURCE_DIR}"
 shfmt -l -w "${SCRIPTS_DIR}"
 
 # Python scripts format
-yapf --recursive "${SOURCE_DIR}"
-yapf --recursive "${SCRIPTS_DIR}"
+yapf --recursive --parallel "${SOURCE_DIR}"
+yapf --recursive --parallel "${SCRIPTS_DIR}"
