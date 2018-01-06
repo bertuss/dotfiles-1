@@ -9,6 +9,7 @@ tap "homebrew/versions"
 brew "bash"
 brew "cmake"
 brew "ctags"
+brew "diff-so-fancy"
 brew "docker"
 brew "emacs"
 brew "fish"
@@ -23,6 +24,7 @@ brew "mas"
 brew "neovim"
 brew "node"
 brew "pyenv"
+brew "pyenv-pip-migrate"
 brew "shellcheck"
 brew "tmux"
 brew "vim", args: ["with-python3"]
@@ -47,6 +49,7 @@ cask "caskroom/fonts/font-hack-nerd-font"
 cask "caskroom/versions/firefoxdeveloperedition"
 cask "caskroom/versions/google-chrome-canary"
 mas "Canary Mail", id: 1236045954
+mas "Install macOS High Sierra", id: 0
 mas "LastPass", id: 926036361
 mas "Noizio", id: 928871589
 mas "Quiver", id: 866773894
