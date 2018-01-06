@@ -1,6 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
 - link:
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore: git/gitignore
-    ~/.git_commit_msg.txt: git/git_commit_msg.txt
+    ~/.gitconfig: src/git/gitconfig
+    ~/.gitignore: src/git/gitignore
+    ~/.git_commit_msg.txt: src/git/git_commit_msg.txt
     #~/.zshrc: zsh/zshrc
     #~/.zsh: zsh
+
+- shell:
+  - mkdir -p ~/.bin
+  - ./scripts/symlink_scripts.sh
+  - git submodule update --init --recursive

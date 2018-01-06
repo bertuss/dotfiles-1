@@ -24,17 +24,8 @@ reports
 
 # Translations
 *.mo
-
 *.log
 *.sqlite
-/configuration.json
-configuration_env.json
-
-/data
-/build
-/dist
-virtualenv.tar.gz
-/deploy/configuration/local
 
 # Editors
 .project
@@ -46,31 +37,13 @@ venv/
 virtualenv/
 virtualenv-2.*/
 virtualenv-3.*/
+.vscode/
 
-.ropeproject
-
-/*.sublime-project
-/*.sublime-workspace
-
+# Mac
 .DS_Store
 
-scripts/run_local_server.sh
 
-*-e
+/node_modules
+/vendor
 
-/.ipynb_checkpoints/
-*.ipynb
-
-.cache/
-
-/node_modules/
-
-# Wercker stuff
-/_builds/
-/_cache/
-/_projects/
-/_steps/
-
-/.python-version
-/venv/
-.vscode/
+brt_scratch*.*
