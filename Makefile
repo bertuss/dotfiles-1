@@ -5,3 +5,7 @@ install:
 .PHONY: bootstrap
 bootstrap:
 	./scripts/bootstrap.sh
+
+.PHONY: format
+format:
+	./scripts/format.sh
